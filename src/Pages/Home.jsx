@@ -1,28 +1,23 @@
-import React from 'react'
-import Main from '../assets/main.png'
-import Slider from "react-slick"
+import React from 'react';
+import images from '../assets/Mag22.jpg';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../App.css';
 
 const Home = () => {
   return (
-    
-    <div >
-      <img className='main-1' src={Main} alt="" />
-            <div className='head-txt mt-3'>
-                <div>
-              <h1>Global Shipping for Businesses</h1>
-               <h6>Delivering with Care, Delivering with Speed</h6>
-               <br />
-               <button className='bk1 btn btn-dark' type='button'>Book bow</button>
-               </div>
-    </div>
+    <div  className=''>
 
-              <br />
-             <div className='mt-5'>
-                <h5 className='pa2'>Get instant access to 20+ local & international delivery partners</h5>
-                
-          
+<img className='container-image' src={images} alt="assets/Log2.jpg"/>
 
-             </div>
+
+<div className='nav-txt text-center text-dark'>
+<h1 >Global Shipping for African Businesses</h1>
+<p>We link businesses, e-Commerce merchants, and individuals to efficient global shipping</p>
+<button className='btn btn-outline-dark'>Book Now</button>   
+
+</div>
+
+
     </div>
   )
 }
