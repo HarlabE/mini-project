@@ -3,64 +3,288 @@
   padding: 0;
   box-sizing: border-box;
 }
+  
+
 
 body{
-  overflow-x: hidden;
-}
-
-.logo1{
-  width: 100px;
+ /* overflow-y: hidden; */
 
 }
-.navbar{
+
+.nav-container{
   display: flex;
-  padding: 10px 20px;
-  width: 100%;
-  background-color: rgb(7, 7, 7);
-  opacity: 0.5;
-  position: fixed;
-  top: 0; 
-  z-index: 1000;
-  color: white;
-  
-  
+  padding: 20px;
+  gap: 40rem;
+  background-color: whitesmoke;
 }
 
-ul{
+
+
+
+.navbar-li{
+  display: flex;
+  gap: 3rem;
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 20px;
   list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  gap: 35px;
-  align-items: center;
-  margin-left: 5px;
-  font-size: 30px;
-}
-
-.main-1{
-  /* height: 100vh; */
-  width: 100vw; 
+  font-size: large;
 }
 
 
-.head-txt{
+.logo{
+
+  width: 80px;
+  border-radius: 1000vmax;
   
-   display:flex;
-   align-items: center;
-   text-align: center;
-   justify-content: center;
+  }
+
+
+
+  .container-image{
+    position: relative;
+    width: 100vw;
+    
+    
+    }
+
+    .nav-txt{
+
+      position: absolute;
+      top: 400px;
+      color: black;
+      left: 250px;
+      
+      
+      }
+
+
+    .slick-header{
+     
+
+      margin-top: 100px;
+      font-weight: bold;
+      font-weight: bold;
+
+
+    }
+
+
+
+
+     .slick-img{
+      height: 20vh;
+      width: 10vw;
+      object-fit: cover;
+      margin: 50px;
+      overflow: scroll;
+      
+
+     }
+    
+
+
+
+     .grow{
+           display: flex;
+           gap: 15rem;
+           justify-content: space-between;
+           margin-top: 100px;
+          
+
+     }
+      
+
+     .grow-text{
+       margin-top: 50px;
+       max-width: 300px;
+       margin-left: 100px;
+       
+
+
+     }
+
+
+   .grow-text h5{
+
+      font-weight: bold;
+      font-size: large;
+     
+
+
+   }
+
+
+     .grow-img{
+
+     width: 40vw;
+     margin-right: 100px;
+     border-radius: 30px;
+    
+
+
+
+     }
+    
+
+
+     .logistics{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 100px;
+      margin-bottom: 100px;
+     
 
 }
+ 
 
-.bk1{
-  width: 30%;
-  height: 50px;
+
+    .logistics-img{
+
+     width: 40vw;
+     margin-left: 100px;
+     border-radius: 30px;
+ 
+
+
+
+  }
+ 
+
+      .logistics-text{
+
+       max-width: 700px;
+       margin-right: 300px; 
+       margin-top: 100px;
+
+
+    }
+
+      
+
+    .logistics-text h5{
+
+      font-weight: bold;
+
+   }
+
+
+
+
+   .faq-section{
+
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+  
+   }
+
+
+
+   .faq-items{
+    border-radius: 10px;
+    box-shadow: 0 4px 0px black;
+  border-bottom: 1px dashed #ddd;
+   padding: 10px 0;
+   margin: 20px 0;
+
+   }
+
+
+
+   .faq-text h1{
+     
+    padding-top: 10px;
+
+   }
+   .faq-text p{
+     
+    padding-top: 10px;
+    font-size: large;
+    font-weight: bold;
+
+   }
+
+
+   .faq-questions{
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: black;
+  cursor: pointer;
   padding: 10px;
-  border-radius: 30%;
-  background-color: black;
-  color: white;
+  align-items: center;
+  justify-content: space-between;
+  
+
+
+   }
+
+
+
+  .faq-question focus{
+
+outline: none
+
+
+  }
+
+
+  .icon{
+
+font-size: 1.5rem;
+
+
+  }
+
+
+  .faq-answers{
+
+padding: 10px;
+font-size: 1rem;
+color: black;
+text-align: center;
+
 }
 
-.pa2{
-       display: flex;
-       justify-content: center;
+
+
+.faq-question.active .icon{
+
+content: '-';
+
+
+
 }
+
+.home-form{
+
+margin-top: -100;
+
+
+}
+
+
+.home-form h1{
+
+  margin: 20px;
+}
+
+
+input, textarea {
+  width: 20%;
+  padding: 5px;
+  box-sizing: border-box;
+  
+}
+
+
+
+
+
+
+
+
