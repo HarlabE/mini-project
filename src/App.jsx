@@ -6,6 +6,7 @@ import Grow from './component/Grow'
 import Logistics from './component/Logistics'
 import Faq from './component/Faq'
 import { Form } from 'react-router-dom'
+import Footer from './component/Footer'
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <Grow/>
       <Logistics/>
       <Faq/>
+      <Footer/>
     
       
       

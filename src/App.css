@@ -281,8 +281,20 @@ input, textarea {
   
 }
 
+.footer-main{
+background: black;
+color: white;
+height: 30vh;
 
 
+}
+
+
+.footer-text{
+
+
+  padding-top: 60px;
+}
 
 
 
